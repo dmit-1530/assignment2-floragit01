@@ -44,13 +44,8 @@ Join us for an epic evening of strategy, snacks, and social fun! Whether you're 
 Upcoming Game Night: Saturday at 7PM!
 Your Next Game Night Starts Here! Come check out our cozy tabletop hub, packed with games, snacks, and great company.
 Find Our Location
-Find Our Location
 Meeple Mind Games
 Sign In
-Sign In
-Shop
-Events
-About Us
 Shop
 Events
 About Us
