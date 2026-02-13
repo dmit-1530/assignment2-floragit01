@@ -1,0 +1,9 @@
+.inner-container {
+    max-width: 1310px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
