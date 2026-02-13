@@ -34,3 +34,18 @@ nav ul li a {
     font-size: var(--nav-text);
     margin-left: 1.84rem;
 }
+
+a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    background-color: var(--banner-background-color);
+    color: var(--banner-text-color);
+}
+
+.banner .flex-container {
+    flex-wrap: wrap; 
+    gap: 2.24rem;
+    flex-direction: column;
+}
