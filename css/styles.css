@@ -17,6 +17,7 @@ header,
 main,
 footer {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #F1F5F9;
 }
 
 .inner-container {
@@ -86,6 +87,7 @@ a.btn:focus {
     padding-top: 5.06rem;
     padding-bottom: 5.06rem;
     
+    
 }
 
 .structure {
@@ -97,7 +99,7 @@ a.btn:focus {
 }
 
 .sentence {
-    width: 60.9375rem;
+    
     font-family: Arial;
     font-size: 2.25rem;
     font-style: normal;
@@ -105,8 +107,8 @@ a.btn:focus {
     line-height: 3.375rem ; 
     
 }
+
 .banner h1 {
-    width: 18.75rem;
     font-size: 4.5rem;
     font-style: normal;
     font-weight: 700;
@@ -114,11 +116,6 @@ a.btn:focus {
     margin-bottom: 1.6875rem;
 }
 
-/* .banner .flex-container {
-    flex-wrap: wrap; 
-    gap: 2.24rem;
-    flex-direction: column;   
-} */
 
 .flex-container ul {
     margin-top: 3rem;
@@ -154,22 +151,40 @@ a.btns:focus {
 .image {
     display: flex;
     flex-direction: column;    
-    /* change bg color */
-    background-color: lightblue;
-    margin-bottom: 3.375rem;
+    background-color: var(--background-color);
+    margin-bottom: 3.375rem; 
+    
+    
 }
 
-/* .image h2,
+.image h2 {
+    padding-top: 1.6875rem;
+    padding-left: 1.6875rem;
+    
+    
+}
 .image p {
-    padding-left: 1.69rem;
-} */
+    padding-left: 1.6875rem;
+    width: 31.1875rem;
+    
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding-bottom: 1.7rem;
+}
 
 .image a {
     color: var(--buttons-and-links);
     font-weight: 700;
     text-decoration-line: underline;
-    text-decoration-style: solid;
+    /* text-decoration-style: solid; */
     line-height: 2.0625rem;
+    padding-right: 3rem;
+    width: 17.1875rem;
+
 }
 
 .image a:hover {
@@ -180,15 +195,17 @@ a.btns:focus {
 }
 
 .newsletter {
-    background-color: #BD3A5A;
+    background-color: var(--background-color);
     padding: 1.8125rem;
     margin-bottom: 3.375rem;
+    
 }
 
 .magic {
-    background-color: aliceblue;
+    background-color: var(--background-color);
     padding: 1.6875rem;
     margin-bottom: 3.38rem;
+   
 }
 
 .magic a {
@@ -207,58 +224,57 @@ a.btns:focus {
 
 .events {
     padding: 1.69rem;
-    background-color: beige;
+    background-color: var(--background-color);
     margin-bottom: 5.06rem;
+    
 }
+
+
 
 .games {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #005A8F;    
+    background-color: var(--background-color);  
+    width: 25.875rem;
+    height: 50.0625rem;
+   
 }
 
 .games h2 {
     margin-bottom: 3.375rem;
+    text-align: center;
+    padding-top: 1.69rem;
 }
 
 .games p {
     margin-bottom: 3.375rem;
 }
 
-/* .width {
+
+.flex {
     display: flex;
-    flex-wrap: wrap;
-
+    flex-wrap: nowrap;
+   
 }
-
-
-
- */
-
-
-
-
+.right {
+    padding-left: 2.125rem;
+}
 
 
 
 footer {
     background-color: var(--footer-background-color);
+}
+.text {
+    
     font-size: var(--footer-text);
     color: var(--banner-text-color);
     display: flex;
-    text-align: calc((100% / 2) - (2.125rem / 1));
+    justify-content: space-between;
+    align-items: flex-start;
     padding: 3.375rem 4.875rem;
     gap: 2.125rem;
+   
 }
-
-
-/* 
-footer p {
-    
-    /* width: calc((100% / 2) - (2.125rem / 1)); 
-    
-    
-} 
-*/
