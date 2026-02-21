@@ -157,6 +157,7 @@ a.btns:focus {
     
 }
 
+
 .image h2 {
     padding-top: 1.6875rem;
     padding-left: 1.7rem;
@@ -243,14 +244,14 @@ a.btns:focus {
     align-items: center;
     flex-direction: column;
     background-color: var(--background-color);  
-    width: 100%
+    max-width: 25.875rem;
    
 }
 
 .games h2 {
     margin-bottom: 3.375rem;
     text-align: center;
-    padding-top: 1.69rem;
+    padding: 1.69rem;
 }
 
 .games p {
