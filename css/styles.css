@@ -159,13 +159,13 @@ a.btns:focus {
 
 .image h2 {
     padding-top: 1.6875rem;
-    padding-left: 1.6875rem;
-    width: 31.1875rem;
+    padding-left: 1.7rem;
+    max-width: 100%;
     
 }
 .image p {
-    padding-left: 1.6875rem;
-    width: 31.1875rem;
+    padding-left: 1.7rem;
+    max-width: 100%;
     
 }
 
@@ -197,16 +197,19 @@ a.btns:focus {
 
 .newsletter {
     background-color: var(--background-color);
-    padding: 1.8125rem;
+    padding: 1.7rem;
     margin-bottom: 3.375rem;
+    display: flex;
+    flex-wrap: wrap;
     
 }
 
 .magic {
     background-color: var(--background-color);
-    padding: 1.6875rem;
+    padding: 1.7rem;
     margin-bottom: 3.38rem;
-   
+    display: flex;
+    flex-direction: column;
 }
 
 .magic a {
@@ -224,9 +227,11 @@ a.btns:focus {
 }
 
 .events {
-    padding: 1.69rem;
+    padding: 1.7rem;
     background-color: var(--background-color);
     margin-bottom: 5.06rem;
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -238,8 +243,7 @@ a.btns:focus {
     align-items: center;
     flex-direction: column;
     background-color: var(--background-color);  
-    width: 25.875rem;
-    height: 50.0625rem;
+    width: 100%
    
 }
 
@@ -278,4 +282,11 @@ footer {
     padding: 3.375rem 4.875rem;
     gap: 2.125rem;
    
+}
+
+section {
+    flex: 3;
+}
+aside {
+    flex: 1;
 }
