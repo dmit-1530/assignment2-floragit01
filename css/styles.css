@@ -13,7 +13,10 @@
     --nav-text: 1.25rem;
 }
 
-header,
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+}
 main,
 footer {
     font-family: Arial, Helvetica, sans-serif;
@@ -200,8 +203,7 @@ a.btns:focus {
     background-color: var(--background-color);
     padding: 1.7rem;
     margin-bottom: 3.375rem;
-    display: flex;
-    flex-wrap: wrap;
+    
     
 }
 
